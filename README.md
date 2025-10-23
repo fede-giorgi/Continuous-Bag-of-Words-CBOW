@@ -1,4 +1,4 @@
-# Continuous Bag-of-Words (CBOW) with Negative Sampling  
+# COMS 4995 Applied Deep Learning Homework 2
 ---
 
 ## Overview
@@ -63,5 +63,6 @@ After ten epochs, the model converges to a stable representation with average lo
 The model successfully groups words according to their semantic similarity: “money” relates to economic terms, “lion” to animals, “africa” to countries and regions, and “musician” and “dance” to artistic domains.  
 
 These results empirically confirm the **distributional hypothesis**: that words occurring in similar contexts acquire similar meanings in vector space. Despite its simplicity, the CBOW model with negative sampling efficiently captures meaningful structure in natural language, producing robust embeddings that align closely with human linguistic intuition.  
+
 
 
